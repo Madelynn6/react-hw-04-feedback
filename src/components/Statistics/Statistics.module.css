@@ -1,0 +1,15 @@
+.stats {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #222831;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

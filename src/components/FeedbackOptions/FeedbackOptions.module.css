@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 75px;
+  height: 35px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.good {
+  background-color: #42b883;
+}
+
+.neutral {
+  background-color: #ff9c6d;
+}
+
+.bad {
+  background-color: #dc2f2f;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
