@@ -36,7 +36,7 @@ class App extends Component {
     return (
       <div className="box">
         <div className="box1">
-          <Section title="Please leave feedback">
+          <Section title="Please leave feedback :)">
             <FeedbackOptions
               options={options}
               onLeaveFeedback={this.handleLeaveFeedback}
